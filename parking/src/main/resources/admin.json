@@ -1,0 +1,12 @@
+{
+  "username": "root",
+  "password": "123456",
+  "vipDiscount": "0.75",
+  "antecedentDay": "7",
+  "wxKey": "0f1b6537cf284b99f93fb6da7c6b323d",
+  "webKey": "ac643cbba0181abb5d5f6a9c009ee45f",
+  "jsKey": "ceb7edd1a8f020984fbc49f4a001da60",
+  "codeSafeMsy": "99da86ee1c134317b492061dd9b5c712",
+  "wxAppid": "wxb72628a1653ccb5b",
+  "wxSecret": "37ef17810b902bfeb256ed7e2cdf22d7"
+}

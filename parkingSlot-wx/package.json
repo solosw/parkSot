@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "geolib": "^3.3.4",
+    "markdown-it": "^14.1.0"
+  }
+}

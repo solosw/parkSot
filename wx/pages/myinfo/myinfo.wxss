@@ -1,0 +1,11 @@
+
+.myinfobox {
+	background-color: #FFFFFF;
+	margin: 30rpx;
+	height: 400rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+

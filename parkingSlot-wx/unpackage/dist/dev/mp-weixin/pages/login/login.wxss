@@ -1,0 +1,20 @@
+
+.avatar-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	/* 将图片显示为圆形 */
+}
+.myinput {
+	background-color: #FFFFFF;
+	height: 50rpx;
+	padding: 15rpx;
+	line-height: 50rpx;
+	margin-top: 3rpx;
+}
+

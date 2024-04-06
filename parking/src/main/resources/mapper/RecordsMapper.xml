@@ -1,0 +1,17 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.parking.mapper.RecordsMapper">
+
+    <select id="searchRecords" parameterType="com.example.parking.pojo.form.RecordsForm" resultType="com.example.parking.pojo.Records">
+        SELECT * FROM records
+        <where>
+            <if test="status != null">
+                AND status =#{status}
+            </if>
+            <if test="id != null">
+                AND id =#{id}
+            </if>
+        </where>
+        limit #{start},#{pageSize}
+    </select>
+
+</mapper>

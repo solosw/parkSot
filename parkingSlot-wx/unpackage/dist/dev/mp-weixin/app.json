@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/parkinginfo/parkinginfo",
+    "pages/parkingrecord/parkingrecord",
+    "pages/myinfo/myinfo",
+    "pages/tips/tips",
+    "pages/message/message",
+    "pages/order/order",
+    "pages/Nav/Nav"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/parkinginfo/parkinginfo",
+        "iconPath": "static/parkinginfo1.png",
+        "selectedIconPath": "static/parkinginfo2.png",
+        "text": "停车场信息"
+      },
+      {
+        "pagePath": "pages/parkingrecord/parkingrecord",
+        "iconPath": "/static/parkingrecord1.png",
+        "selectedIconPath": "static/parkingrecord2.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/tips/tips",
+        "iconPath": "static/tips.png",
+        "selectedIconPath": "static/tips.png",
+        "text": "公告"
+      },
+      {
+        "pagePath": "pages/myinfo/myinfo",
+        "iconPath": "static/myinfo1.png",
+        "selectedIconPath": "static/myinfo2.png",
+        "text": "个人信息"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "static/message.png",
+        "selectedIconPath": "static/message.png",
+        "text": "消息"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "测试"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}
